@@ -1,0 +1,42 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="4">
+            <item index="0" class="java.lang.String" itemvalue="bs4" />
+            <item index="1" class="java.lang.String" itemvalue="json" />
+            <item index="2" class="java.lang.String" itemvalue="pandas" />
+            <item index="3" class="java.lang.String" itemvalue="random" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="dash_html_components.Div" />
+          <option value="dash_html_components.H1" />
+          <option value="dash_core_components.Upload" />
+          <option value="dash_core_components.Checklist" />
+          <option value="dash_table_experiments.DataTable" />
+          <option value="dash_html_components.A" />
+          <option value="dash_html_components.Hr" />
+          <option value="dash_html_components.H5" />
+          <option value="dash_html_components.Label" />
+          <option value="dash_html_components.*" />
+          <option value="dash_core_components.RadioItems" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
